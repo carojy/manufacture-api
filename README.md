@@ -5,4 +5,3 @@ Une mini API qui calcule des prix TTC.
 
 - @carojy
 - @eleymoni
-test
