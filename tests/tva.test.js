@@ -11,3 +11,8 @@ test('le taux reduit de 5,5 % fonctionne', () => {
 test('un prix negatif est refuse', () => {
   expect(() => calculerTTC(-5)).toThrow('Prix invalide');
 });
+
+
+test('50 euros HT fait 55 euros TTC si taux 10 %', () => {
+  expect(calculerTTC(50, 10)).toBe(55);
+});
